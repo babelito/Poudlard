@@ -1,4 +1,4 @@
 package com.poudlard.workshop.poudlard;
 
-public class test {
+public class test4 {
 }
