@@ -3,22 +3,28 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/editText2"
+    <Button
+        android:id="@+id/home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <EditText
+        android:id="@+id/nom_projet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:layout_marginTop="20dp"
         android:text="Nom du projet" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/form_projet_token"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:layout_marginTop="20dp"
         android:text="Tokens" />
 
     <Spinner
@@ -28,11 +34,11 @@
         android:layout_marginTop="25dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/valider"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="240dp"
         android:text="Valider
-" />;
+" />
 
 </LinearLayout>
