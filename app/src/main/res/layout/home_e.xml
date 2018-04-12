@@ -5,7 +5,7 @@
 
 
     <EditText
-        android:id="@+id/token_restant"
+        android:id="@+id/home_e_token_restant"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -14,10 +14,10 @@
         android:text="Vos token restant" />
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/list_projet"
+        android:id="@+id/home_e_list_projet"
         android:layout_width="match_parent"
-        android:layout_marginTop="20dp"
-        android:layout_height="match_parent" />;
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp" />;
 
 
 </LinearLayout>
