@@ -4,13 +4,13 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="HOME" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/profil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -24,7 +24,7 @@
         android:layout_marginTop="70dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/form_qst_recyclerview"
         android:layout_width="341dp"
         android:layout_height="262dp"
         android:layout_alignParentTop="true"
@@ -35,7 +35,7 @@
         android:text="Posez votre question" />;
 
     <Button
-        android:id="@+id/poser_question"
+        android:id="@+id/form_qst_projet_valider"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

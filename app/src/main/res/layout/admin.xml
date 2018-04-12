@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button_login"
-        android:layout_width="match_parent"
+        android:id="@+id/profil"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Créer un projet" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Profil" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/admin_list_projet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp" />;
+        android:layout_marginTop="70dp" />;
+
+    <Button
+        android:id="@+id/admin_creation_projet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:text="Créer un projet" />
+
 
 </LinearLayout>

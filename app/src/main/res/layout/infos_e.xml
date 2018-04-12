@@ -4,13 +4,13 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="HOME" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/profil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -18,7 +18,7 @@
         android:text="Profil" />
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/mes_questions"
+        android:id="@+id/info_e_mes_questions"
         android:layout_width="match_parent"
         android:layout_height="370dp"
         android:layout_alignParentStart="true"
@@ -27,10 +27,10 @@
         android:layout_marginTop="72dp" />
 
     <Button
-        android:id="@+id/poser_question"
+        android:id="@+id/info_e_pose_question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Poser une question" />
+        android:text="une question" />
 
