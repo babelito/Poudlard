@@ -49,4 +49,4 @@
         android:text="Valider
 " />;
 
-</LinearLayout>
+</RelativeLayout>
