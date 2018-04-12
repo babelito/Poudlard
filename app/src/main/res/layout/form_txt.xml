@@ -10,7 +10,7 @@
         android:text="HOME" />
 
     <TextView
-        android:id="@+id/question"
+        android:id="@+id/txt_question"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_alignParentStart="true"
@@ -27,7 +27,7 @@
         android:text="Profil" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/txt_reponse"
         android:layout_width="match_parent"
         android:layout_height="136dp"
         android:layout_alignParentStart="true"
@@ -38,7 +38,7 @@
         android:text="Réponse" />
 
     <Button
-        android:id="@+id/valider"
+        android:id="@+id/txt_valider"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

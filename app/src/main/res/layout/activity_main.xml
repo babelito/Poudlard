@@ -20,7 +20,7 @@
         android:layout_marginTop="147dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/identifiant" />
+        android:text="Identifiant" />
 
     <EditText
         android:id="@+id/password"
@@ -39,8 +39,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="188dp"
-        android:onClick="login"
-        android:text="@string/valider" />
+        android:text="Valider" />
 
 
 </RelativeLayout>
