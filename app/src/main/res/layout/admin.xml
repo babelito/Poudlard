@@ -4,24 +4,16 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/home"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Home" />
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/list_projet"
-        android:layout_width="match_parent"
-        android:layout_height="400dp" />
-
-    <Button
-        android:id="@+id/creer_projet"
+        android:id="@+id/button_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="05dp"
+        android:layout_marginTop="30dp"
         android:text="Créer un projet" />
 
-
-    ;
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />;
 
 </LinearLayout>
