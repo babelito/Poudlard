@@ -7,7 +7,8 @@
         android:id="@+id/home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HOME" />
+        android:text="HOME"
+        android:onClick="gohome"/>
 
     <Button
         android:id="@+id/PROFIL"
@@ -15,7 +16,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:text="Profil" />
+        android:text="Profil"
+        android:onClick="goprofil"/>
 
     <EditText
         android:id="@+id/token_token"

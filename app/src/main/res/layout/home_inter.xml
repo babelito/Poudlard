@@ -10,7 +10,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:text="Profil" />
+        android:text="Profil"
+        android:onClick="goProfil"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/home_inter_question"
